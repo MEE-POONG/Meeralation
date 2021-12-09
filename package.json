@@ -1,0 +1,35 @@
+{
+  "name": "ginaraidee",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.4.2",
+    "firebase": "3.9.0",
+    "next": "^12.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.20.5",
+    "react-icons": "^4.3.1",
+    "react-random-reveal": "^1.0.1",
+    "react-scroll": "^1.8.4",
+    "react-spring": "^9.3.2",
+    "recoil": "^0.5.2",
+    "recoil-persist": "^4.0.0",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.1.7",
+    "swiper": "^5.2.0"
+
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "eslint": "7",
+    "eslint-config-next": "12.0.4",
+    "postcss": "^8.4.1",
+    "tailwindcss": "^2.2.19"
+  }
+}
