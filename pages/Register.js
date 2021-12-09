@@ -9,7 +9,7 @@ export default function Login() {
                     <div className="py-10 block grid">
                         <div className="cursor-pointer mb-3 border-2 border-gray-300 rounded-lg px-3 bg-white">
                                 <div className="max-w-md w-full space-y-8">
-                                    <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">SIGN IN</h2>
+                                    <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">REGISTER</h2>
                                     <form className="w-full max-w-lg">
                                         <input className="appearance-none block w-full bg-gray-50 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text"
                                             type="text"
@@ -17,6 +17,21 @@ export default function Login() {
                                             placeholder="Username"
                                         />
                                         <input className="appearance-none block w-full bg-gray-50 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text"
+                                            type="text"
+                                            name="user-name"
+                                            placeholder="Password"
+                                        />
+                                         <input className="appearance-none block w-full bg-gray-50 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text"
+                                            type="text"
+                                            name="user-name"
+                                            placeholder="Password"
+                                        />
+                                         <input className="appearance-none block w-full bg-gray-50 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text"
+                                            type="text"
+                                            name="user-name"
+                                            placeholder="Password"
+                                        />
+                                         <input className="appearance-none block w-full bg-gray-50 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text"
                                             type="text"
                                             name="user-name"
                                             placeholder="Password"
