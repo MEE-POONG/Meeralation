@@ -12,12 +12,12 @@ export default function Login() {
                                     <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">SIGN IN</h2>
                                     <form className="w-full max-w-lg">
                                         <input className="appearance-none block w-full bg-gray-50 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text"
-                                            type="text"
+                                            
                                             name="user-name"
                                             placeholder="Username"
                                         />
                                         <input className="appearance-none block w-full bg-gray-50 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text"
-                                            type="text"
+                                            
                                             name="user-name"
                                             placeholder="Password"
                                         />
