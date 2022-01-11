@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlinePlus, AiOutlinePicture } from "react-icons/ai";
-import Status from "../component/Status";
+import Status from "../components/Status";
 
 export default function Feel() {
   return (
