@@ -1,4 +1,6 @@
 import { LockClosedIcon } from "@heroicons/react/solid";
+import React from "react";
+import router from "next/router";
 
 export default function Login() {
   return (
@@ -8,7 +10,7 @@ export default function Login() {
           Mee Relation
         </h2>
         <div className="px-4 flex-auto">
-          <div className="py-10 block grid">
+          <div className="py-10 grid">
             <div className="cursor-pointer mb-3 border-2 border-gray-300 rounded-lg px-3 bg-white">
               <div className="max-w-md w-full space-y-8">
                 <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
@@ -17,16 +19,12 @@ export default function Login() {
                 <form className="w-full max-w-lg">
                   <input
                     className="appearance-none block w-full bg-gray-50 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                    id="grid-first-name"
                     type="text"
-                    name="user-name"
                     placeholder="Username"
                   />
                   <input
                     className="appearance-none block w-full bg-gray-50 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                    id="grid-first-name"
                     type="text"
-                    name="user-name"
                     placeholder="Password"
                   />
                   <div className="flex items-center justify-between">
@@ -55,18 +53,21 @@ export default function Login() {
                     </div>
                   </div>
 
-
-           <button className="w-full bg-indigo-600   text-white   p-3 rounded-lg">
-             <span className="text-l text-center"> SIGNIN </span>
-           </button>
-
+                  <button className="w-full bg-indigo-600   text-white   p-3 rounded-lg">
+                    <span className="text-l text-center"> SIGNIN </span>
+                  </button>
                   <div className="text-sm text-center py-5">
-                    <a
-                      href="#"
-                      className="font-medium text-indigo-600 hover:text-indigo-500"
-                    >
-                      Register Now
-                    </a>
+                  <bottom
+                    className="font-medium text-indigo-600 hover:text-indigo-500"
+                    type="botton"
+                    onClick={() => {
+                      router.push({
+                        pathname: "/register",
+                      });
+                    }}
+                  >
+                    Register Now
+                  </bottom>
                   </div>
                 </form>
               </div>

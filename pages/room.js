@@ -1,6 +1,7 @@
 import React from "react";
 import { BiDotsHorizontalRounded } from "react-icons/bi";
 import { BsPerson, BsMicFill } from "react-icons/bs";
+import Modalshereroom from "../components/modalshereroom";
 
 export default function Room() {
   return (
@@ -10,9 +11,7 @@ export default function Room() {
           <header className="">
             <div className="mt-2 px-1">I here too </div>
           </header>
-          <button>
-            <BiDotsHorizontalRounded size={40} />{" "}
-          </button>
+          <Modalshereroom/>
         </div>
         <div className="grid grid-cols-3 text-black ">
           <button className=" box-border p-4  m-1 rounded-lg bg-gray-300">

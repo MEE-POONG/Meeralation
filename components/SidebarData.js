@@ -15,7 +15,7 @@ export const SidebarData = [
   },
   {
     title: 'กระดานสนทนา',
-    path: '/',
+    path: '/feel',
     icon: <BsIcons.BsFillChatRightTextFill />,
     cName: 'nav-text'
   },
