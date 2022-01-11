@@ -18,8 +18,9 @@ export default function Modalstatus() {
           onClick={() => setShowModal(true)}
         />
       </div>
-      {showModalStatus ? (
-        <div className="px-5 justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50  shadow-lg backdrop-filter backdrop-blur-md ">
+      
+      { showModalStatus ? (
+        <div className=" px-5 justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50  shadow-lg backdrop-filter backdrop-blur-md ">
           <div className="w-full  max-w-lg  relative mx-auto my-auto rounded-xl shadow-lg  bg-white ">
             <div className="">
               <div
@@ -55,6 +56,7 @@ export default function Modalstatus() {
           </div>
         </div>
       ) : null}{" "}
-    </div>
+      </div>
+    
   );
 }
