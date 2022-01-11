@@ -1,8 +1,8 @@
 import React from "react";
 import { CgProfile } from "react-icons/cg";
 import { IoPersonCircleOutline } from "react-icons/io5";
-import Modalstatus from "../component/modalstatus";
-import Status from "../component/Status";
+import Modalstatus from "../components/modalstatus";
+import Status from "../components/Status";
 
 export default function Profile() {
   return (
