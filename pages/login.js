@@ -1,32 +1,14 @@
 import { LockClosedIcon } from "@heroicons/react/solid";
-<<<<<<< HEAD
-import { useRouter } from "next/router";
-import React from "react";
-
-
-
-
-export default function Login() {
-    const router = useRouter();
-  return (
-    <>
-      <div className="container mx-auto max-w-lg py-10">
-=======
 
 export default function Login() {
   return (
     <>
       <div className="container mx-auto max-w-lg py-10 z-0">
->>>>>>> Navbar-No1
         <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
           Mee Relation
         </h2>
         <div className="px-4 flex-auto">
-<<<<<<< HEAD
-          <div className="py-10  grid">
-=======
           <div className="py-10 block grid">
->>>>>>> Navbar-No1
             <div className="cursor-pointer mb-3 border-2 border-gray-300 rounded-lg px-3 bg-white">
               <div className="max-w-md w-full space-y-8">
                 <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
@@ -73,34 +55,6 @@ export default function Login() {
                     </div>
                   </div>
 
-<<<<<<< HEAD
-                  <div>
-                    <button
-                      type="submit"
-                      className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                    >
-                      <span className="absolute left-0 inset-y-0 flex items-center pl-3">
-                        <LockClosedIcon
-                          className="h-5 w-5 text-indigo-500 group-hover:text-indigo-400"
-                          aria-hidden="true"
-                        />
-                      </span>
-                      Sign in
-                    </button>
-                  </div>
-                  <div className="text-sm text-center py-5">
-                    <button
-                      className="font-medium text-indigo-600 hover:text-indigo-500"
-                      type="button"
-                      onClick={() => {
-                        router.push({
-                          pathname: "/register"
-                        });
-                      }}
-                    >
-                      Register Now
-                    </button>
-=======
 
            <button className="w-full bg-indigo-600   text-white   p-3 rounded-lg">
              <span className="text-l text-center"> SIGNIN </span>
@@ -113,7 +67,6 @@ export default function Login() {
                     >
                       Register Now
                     </a>
->>>>>>> Navbar-No1
                   </div>
                 </form>
               </div>
