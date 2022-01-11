@@ -7,7 +7,6 @@ import Image from "next/image"
 
 function Sidebar() {
   const [sidebar, setSidebar] = useState(false);
-
   const showSidebar = () => setSidebar(!sidebar);
   return (
     <>
@@ -40,6 +39,7 @@ function Sidebar() {
                   </a>
                 </li>
               );
+              
             })}
           </ul>
         </nav>

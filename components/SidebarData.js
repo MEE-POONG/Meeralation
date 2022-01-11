@@ -5,6 +5,7 @@ import * as BsIcons from 'react-icons/bs'
 import * as SiIcons from 'react-icons/si'
 import * as GoIcons from 'react-icons/go'
 
+
 export const SidebarData = [
   {
     title: 'หน้าหลัก',
@@ -20,9 +21,10 @@ export const SidebarData = [
   },
   {
     title: 'ห้องสนทนา',
-    path: '/messages',
+    path: '/modalroom',
     icon: <SiIcons.SiGoogleclassroom />,
-    cName: 'nav-text'
+    cName: 'nav-text',
+    
   },
   {
     title: 'ตั้งค่า',

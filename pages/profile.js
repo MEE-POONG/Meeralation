@@ -13,7 +13,7 @@ export default function Profile() {
         </div>
         <div className="text-center mt-5">บาสน้อยหอยสัง</div>
       </div>
-      <Modalstatus/>
+      <Modalstatus />
       <Status />
     </div>
   );
