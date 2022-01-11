@@ -17,6 +17,7 @@
     "react-hook-form": "^7.20.5",
     "react-icons": "^4.3.1",
     "react-random-reveal": "^1.0.1",
+    "react-router-dom": "^6.2.1",
     "react-scroll": "^1.8.4",
     "react-spring": "^9.3.2",
     "recoil": "^0.5.2",
