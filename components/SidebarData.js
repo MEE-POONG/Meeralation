@@ -8,16 +8,10 @@ import * as GoIcons from 'react-icons/go'
 
 export const SidebarData = [
   {
-    title: 'หน้าหลัก',
-    path: '/',
-    icon: <AiIcons.AiFillHome />,
-    cName: 'nav-text'
-  },
-  {
     title: 'กระดานสนทนา',
     path: '/feel',
     icon: <BsIcons.BsFillChatRightTextFill />,
-    cName: 'nav-text'
+    cName: 'nav-text mt-2'
   },
   {
     title: 'ห้องสนทนา',

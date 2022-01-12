@@ -4,10 +4,12 @@ import * as AiIcons from "react-icons/ai";
 import { SidebarData } from "./SidebarData";
 import { IconContext } from "react-icons";
 import Image from "next/image"
+import { useRouter } from "next/router";
 
 function Sidebar() {
   const [sidebar, setSidebar] = useState(false);
   const showSidebar = () => setSidebar(!sidebar);
+  const router = useRouter();
   return (
     <>
       <IconContext.Provider value={{ color: "#fff" }}>
@@ -24,12 +26,16 @@ function Sidebar() {
               </a>
             </li>
             <li className=" mx-6 ">
-            <Image src="/aespa3.jpeg" width={70} height = {70} className=" h-24 w-24 rounded-full inline-block "/>
-           
-            <div className="   mt-4 " >
-            <div className="text-l text-white px-3">  เจมน้อยดาวทวิต</div>  <div  className="px-3 text-xs text-gray-300">  @jamesidiotboyz</div> 
-            </div>
-               </li>
+              <div className="flex space-x-2">
+                <Image src="/aespa3.jpeg" width={30} height={30} className=" rounded-full inline-block " />
+                <button className="text-xl text-white px-2"
+                  onClick={() => {
+                    router.push('/profile');
+                  }}>  เจมน้อยดาวทวิต
+                </button>
+              </div>
+            </li>
+            <div className="h-0.5 bg-gray-500 mt-5 ml-3 mr-3"> </div>
             {SidebarData.map((item, index) => {
               return (
                 <li key={index} className={item.cName}>
@@ -39,7 +45,7 @@ function Sidebar() {
                   </a>
                 </li>
               );
-              
+
             })}
           </ul>
         </nav>
