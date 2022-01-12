@@ -62,7 +62,7 @@ export default function Login() {
                     type="botton"
                     onClick={() => {
                       router.push({
-                        pathname: "/register",
+                        pathname: "/Register",
                       });
                     }}
                   >

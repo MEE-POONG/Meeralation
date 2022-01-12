@@ -2,10 +2,13 @@
 
 import mongoose from 'mongoose'
 
-const AddStoreSchema = new mongoose.Schema({
-    namestore: String,
-    detail: String,
+const AddUserSchema = new mongoose.Schema({
+    firstname: String,
+    lastname: String,
+    date: String,
+    username: String,
+    password: String,
     img:String
 })
 
-module.exports = mongoose.models.AddStore || mongoose.model('AddStore', AddStoreSchema)
+module.exports = mongoose.models.AddUser || mongoose.model('AddUser', AddUserSchema)
