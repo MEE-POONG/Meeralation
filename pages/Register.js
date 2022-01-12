@@ -32,6 +32,13 @@ export default function Register() {
                   />
                   <input
                     className="appearance-none block w-full bg-gray-50 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                    id="date"
+                    type="date"
+                    name=""
+                  />
+
+                  <input
+                    className="appearance-none block w-full bg-gray-50 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                     id="grid-first-name"
                     type="text"
                     name=""
@@ -44,14 +51,7 @@ export default function Register() {
                     name=""
                     placeholder="Password"
                   />
-                  <input
-                    className="appearance-none block w-full bg-gray-50 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                    id="grid-first-name"
-                    type="text"
-                    name=""
-                    placeholder="Confirm Password"
-                  />
-
+                  
                   <div className="py-5">
                     <button
                       type="submit"
