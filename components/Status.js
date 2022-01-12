@@ -2,7 +2,12 @@ import React from "react";
 import { IoPersonCircleOutline } from "react-icons/io5";
 import { AiOutlineLike, AiOutlineDislike } from "react-icons/ai";
 
+import { useState } from "react";
+
 export default function Status() {
+  const [count, setCount] = useState();
+  const [disCount, setDisCount] = useState([0]);
+
   return (
     <div className="container mx-auto max-w-lg py-2">
       <div className="flex-auto">
@@ -17,14 +22,18 @@ export default function Status() {
           </div>
 
           <div className="px-2 mt-1 flex">
-            <button>
+            <button onClick={() => setCount(!count)} className="  ">
               <AiOutlineLike size={24} color="#2563eb" className="mt-1 mr-2" />
             </button>
-            <div className="mr-2 mt-2"> 100 </div>
-            <button>
-              <AiOutlineDislike size={24} color="#2563eb" className="mt-1 mr-2 ml-3" />
+            {count ? <div className="mr-2 mt-2">{count + 0} </div> : [0]}
+            <button onClick={() => setDisCount((disCount = 1))}>
+              <AiOutlineDislike
+                size={24}
+                color="#2563eb"
+                className="mt-1 mr-2 ml-3"
+              />
             </button>
-            <div className="mr-2 mt-2"> 200 </div>
+            <div className="mr-2 mt-2"> {disCount} </div>
           </div>
         </div>
       </div>
