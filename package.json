@@ -24,7 +24,11 @@
     "recoil-persist": "^4.0.0",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^11.1.7",
-    "swiper": "^5.2.0"
+    "swiper": "^5.2.0",
+    "axios": "^0.24.0",
+    "form-data": "^4.0.0",
+    "mongoose": "5.13.6",
+    "multer": "^1.4.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
