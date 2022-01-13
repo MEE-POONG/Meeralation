@@ -7,8 +7,9 @@ import Modalup from "../components/modalup";
 export default function Feel() {
   return (
     <><Sidebar />
+     
       <div className="mx-auto w-full container mt-5">
-        <Modalup/>
+        <Modalup />
         <div className="px-5">
           <Status />
         </div>

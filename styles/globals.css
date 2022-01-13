@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,4 +97,12 @@ a {
 
 .Zspan {
   margin-left: 16px;
+}
+
+.story-ring {
+  padding: 2px;
+}
+
+.story-text {
+  font-size: 13px;
 }
