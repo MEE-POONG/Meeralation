@@ -25,7 +25,7 @@ export default function Status() {
             <button onClick={() => setCount(!count)} className="  ">
               <AiOutlineLike size={24} color="#2563eb" className="mt-1 mr-2" />
             </button>
-            {count ? <div className="mr-2 mt-2">{count + 0} </div> : [0]}
+            {count ? <div className="">{count + 0} </div> : [0]}
             <button onClick={() => setDisCount((disCount = 1))}>
               <AiOutlineDislike
                 size={24}

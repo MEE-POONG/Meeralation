@@ -3,6 +3,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import Swal from "sweetalert2";
 import axios from "axios";
+import Login from "./loginPage";
 
 const initialState = {
   firstname: "",
@@ -23,7 +24,6 @@ export default function Register() {
   useEffect(() => {
     getUserData();
   }, []);
-
 
   const getUserData = async () => {
     try {
@@ -127,7 +127,10 @@ export default function Register() {
                 <form className="w-full max-w-lg" onSubmit={handelSubmit}>
                   <div className="flex items-center justify-center">
                     <label className="rounded-lg group text-center">
-                      <img className="rounded-full w-32 h-32 border-8 shadow-xl" src={showImage()} />
+                      <img
+                        className="rounded-full w-32 h-32 border-8 shadow-xl"
+                        src={showImage()}
+                      />
                       <input
                         type="file"
                         className="hidden"
@@ -142,7 +145,6 @@ export default function Register() {
                       setFormUser({ ...formUser, firstname: e.target.value })
                     }
                     value={firstname}
-
                     className="mt-5 appearance-none block w-full bg-gray-50 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                     id="grid-first-name"
                     type="text"
@@ -213,6 +215,7 @@ export default function Register() {
             </div>
           </div>
         </div>
+        <Login/>
       </div>
     </>
   );
